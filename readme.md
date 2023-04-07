@@ -2,11 +2,11 @@
 
 Quick Learn is a Chrome extension that helps you learn faster by summarizing a selected text and generating a quiz based on that text using OpenAI's large language models.
 
-<video width="640" height="480" controls>
-  <source src="quicklearn.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="text-align:center; width:100%;">
 
+![preview](video.gif)
+
+</div>
 
 ## Features
 
