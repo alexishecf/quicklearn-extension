@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "quick-learn",
+  "version": "0.0",
+  "description": "Quick Learn is an application that leverages context and essentialization to facilitate quick concept learning through reading and quizzes.",
+  "permissions": ["activeTab", "contextMenus", "tabs"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["gui.html", "gui.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

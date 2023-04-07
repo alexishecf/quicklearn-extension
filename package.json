@@ -1,0 +1,16 @@
+{
+  "name": "quick-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "tsc; cp src/gui.html dist/gui.html; cp src/background.js dist/background.js; cp src/manifest.json dist/manifest.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.3"
+  }
+}
